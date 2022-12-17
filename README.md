@@ -1,14 +1,14 @@
 chatgpt: Chat GPT console client in Golang
 ======================
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/kkdai/chatgpt/master/LICENSE) ![Go](https://github.com/kkdai/chatgpt/workflows/Go/badge.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Rostislaved/chatgpt/master/LICENSE) ![Go](https://github.com/Rostislaved/chatgpt/workflows/Go/badge.svg)
 
 A Golang console client for ChatGPI (<https://chat.openai.com>) using GPT
 
 Install
 --------------
 
-    go get -u -x github.com/kkdai/chatgpt
+    go install -x github.com/Rostislaved/chatgpt@latest
 
 Request for API from OpenAI
 ---------------------
