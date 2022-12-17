@@ -1,34 +1,31 @@
 chatgpt: Chat GPT console client in Golang
 ======================
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Rostislaved/chatgpt/master/LICENSE) ![Go](https://github.com/Rostislaved/chatgpt/workflows/Go/badge.svg)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rostislaved/chatgpt/master/LICENSE) ![Go](https://github.com/rostislaved/chatgpt/workflows/Go/badge.svg)
 
 A Golang console client for ChatGPI (<https://chat.openai.com>) using GPT
 
 Install
 --------------
 
-    go install -x github.com/Rostislaved/chatgpt@latest
+    go install -x github.com/rostislaved/chatgpt@latest
 
 Request for API from OpenAI
 ---------------------
 
-Request your OpenAPI key in [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys)
+1. Request your OpenAPI key in [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys)
+2. export API_KEY=OpenAPI_key
+3. go install -x github.com/rostislaved/chatgpt@latest
 
 Usage
 ---------------------
 
-    API_KEY=YOUR_KEY chatgpt  
+1. In terminal: chatgpt
+2. Enter your prompt
 
 Snapshot
 ---------------
-![](img/chatgpt.gif)
-
-Contribute
----------------
-
-Please open up an issue on GitHub before you put a lot efforts on pull request.
-The code submitting to PR must be filtered with `gofmt`
+![](img/chatgpt.png)
 
 License
 ---------------
