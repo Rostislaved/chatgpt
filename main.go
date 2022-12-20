@@ -53,8 +53,8 @@ func main() {
 							fmt.Println(err)
 						}
 
-						fmt.Println()
 						fmt.Println(response)
+						fmt.Println()
 					}()
 				}
 			}
