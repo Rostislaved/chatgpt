@@ -15,10 +15,12 @@ import (
 
 func main() {
 	log.SetOutput(new(NullWriter))
-	apiKey := os.Getenv("API_KEY")
-	if apiKey == "" {
+	apiKey, ok := os.LookupEnv("API_KEY")
+	if !ok {
 		panic("Missing API_KEY")
 	}
+
+	fmt.Printf("[%v]\n", apiKey)
 
 	ctx := context.Background()
 
