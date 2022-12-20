@@ -22,6 +22,8 @@ func main() {
 
 	client := gpt3.NewClient(apiKey)
 
+	ctx := context.Background()
+
 	rootCmd := &cobra.Command{
 		Use:   "chatgpt",
 		Short: "Chat with ChatGPT in console.",
