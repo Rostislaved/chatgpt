@@ -20,10 +20,6 @@ func main() {
 		panic("Missing API_KEY")
 	}
 
-	fmt.Printf("[%v]\n", apiKey)
-
-	ctx := context.Background()
-
 	client := gpt3.NewClient(apiKey)
 
 	rootCmd := &cobra.Command{
